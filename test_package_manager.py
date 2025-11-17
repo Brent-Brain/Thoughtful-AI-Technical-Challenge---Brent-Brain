@@ -1,5 +1,5 @@
 import pytest
-from package_sorter import sort
+from package_manager import sort
 
 def test_standard_package():
     assert sort(10, 10, 10, 5) == "STANDARD"
